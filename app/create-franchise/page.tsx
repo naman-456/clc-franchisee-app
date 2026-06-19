@@ -111,32 +111,40 @@ export default function CreateFranchiseePage() {
 
         <form className="mt-4 px-4 sm:px-8 md:px-36">
            {activeTab.id == 101 && (
-              <>
+              <div className="lg:flex lg:max-w-[40%] lg:justify-between lg:gap-10 lg:flex-wrap">
                     <div className="flex flex-col sm:flex-row justify-start gap-4 sm:gap-6 mb-4 sm:mb-0">
-                                <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">User name :</span></div>
-                                <div className="flex-1">
+                             <div>
+                                <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">User name <span className="text-red-600">*</span></span></div>
+                                <div className="flex-1 mt-2">
                                     <input type="text" placeholder="Enter User Name" className="w-full sm:w-auto border border-white pl-2 py-1" />
                                 </div>
+                            </div>
                     </div>
-                    <div className="flex flex-col sm:flex-row justify-start gap-4 sm:gap-6 my-4 sm:my-6">
-                            <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">Email :</span></div>
-                            <div className="flex-1">
-                                <input type="text" placeholder="Enter Email address" className="w-full sm:w-auto border border-white pl-2 py-1" />
+                    <div className="flex flex-col sm:flex-row justify-start gap-4 sm:gap-6 lg:mt-0.5 sm:my-6">
+                           <div>
+                                <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">Email <span className="text-red-600">*</span></span></div>
+                                    <div className="flex-1 mt-2">
+                                        <input type="text" placeholder="Enter Email address" className="w-full sm:w-auto border border-white pl-2 py-1" />
+                                    </div>
                             </div>
                     </div>
                     <div className="flex flex-col sm:flex-row justify-start gap-4 sm:gap-6 my-4 sm:my-6">
-                        <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">Mobile number :</span></div>
-                        <div className="flex-1">
-                            <input type="tel"  placeholder="Enter mobile number" className="w-full sm:w-auto border border-white pl-2 py-1"/>
+                        <div>
+                            <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">Mobile number <span className="text-red-600">*</span></span></div>
+                            <div className="flex-1 mt-2">
+                                <input type="tel"  placeholder="Enter mobile number" className="w-full sm:w-auto border border-white pl-2 py-1"/>
+                            </div>
                         </div>
                     </div>
                     <div className="flex flex-col sm:flex-row justify-start gap-4 sm:gap-6 my-4 sm:my-6">
-                        <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">Password</span></div>
-                        <div className="flex-1">
-                            <input type="password"  placeholder="Set your account password" className="w-full sm:w-auto border border-white pl-2 py-1"/>
+                        <div>
+                             <div className="sm:min-w-40"><span className="text-xs sm:text-sm md:text-base">Password <span className="text-red-600">*</span></span></div>
+                            <div className="flex-1 mt-2">
+                                <input type="password"  placeholder="Set your account password" className="w-full sm:w-auto border border-white pl-2 py-1"/>
+                            </div>
                         </div>
                     </div>
-           </>)}
+           </div>)}
 
            {activeTab.id == 102 && (
                 <>
