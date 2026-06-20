@@ -1,4 +1,5 @@
 import { CheckIcon } from '@heroicons/react/24/solid'
+import Link from 'next/link';
 
 const RegistrationSuccess = () => {
     return (
@@ -15,7 +16,7 @@ const RegistrationSuccess = () => {
                     <button className="bg-amber-100 py-2 px-4  text-amber-500 rounded-l-full rounded-r-full border-amber-500">PENDING_APPROVAL</button>
                 </div>
                 <div className="flex justify-center">
-                    <button className="text-blue-950 border border-[#4a5568] py-2 mt-5 px-16 rounded-2xl">Go To Home</button>
+                    <Link href="/" className="text-blue-950 border border-[#4a5568] py-2 mt-5 px-16 rounded-2xl">Go To Home</Link>
                 </div>
            </div>
         </>
