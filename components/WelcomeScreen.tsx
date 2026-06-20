@@ -21,8 +21,8 @@ export const WelcomeScreen = () => {
                         <p className="mt-5 lg:ml-25 md:ml-25 ml-8">Partner with India's leading AI/ML EdTech brand. Expand your institute's reach with world-class curriculum.</p>
                     </div>
                </div>
-          <Link  href="/create-franchise" className="bg-[#1a3a5c] p-4 mt-4 w-sm rounded-2xl lg:ml-25 md:ml-25 ml-8 mr-8 lg:mr-0 md:mr-0 hover:cursor-pointer flex justify-center">Apply for Franchise</Link>
-          <Link href="/sign-in" className="p-4 mt-4 w-sm rounded-2xl border-2 border-[#1a3a5c] lg:ml-25 md:ml-25 ml-8 mr-8 lg:mr-0 md:mr-0 hover:cursor-pointer flex justify-center block">Login</Link>
+          <Link  href="/create-franchise" className="bg-[#1a3a5c] p-4 mt-4 w-sm rounded-2xl lg:ml-25 md:ml-25 ml-6 mr-8 lg:mr-0 md:mr-0 hover:cursor-pointer flex justify-center">Apply for Franchise</Link>
+          <Link href="/sign-in" className="p-4 mt-4 w-sm rounded-2xl border-2 border-[#1a3a5c] lg:ml-25 md:ml-25 ml-6 mr-8 lg:mr-0 md:mr-0 hover:cursor-pointer flex justify-center block">Login</Link>
           </div>
           <MetricsSection />
           <WhyPartnerWithCLC />
